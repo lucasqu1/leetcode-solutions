@@ -49,3 +49,4 @@ class Solution:
 
             # An even more efficient solution exists, where I can just mark Os around the borders as unsafe, 
             # and then any O that is not marked as unsafe just becomes an X. so basically i should only process the borders
+            # EDIT: just running it around the borders reduces the overhead a lot, and leads to a solution that has the same complexity but is the best optimization we can do.
